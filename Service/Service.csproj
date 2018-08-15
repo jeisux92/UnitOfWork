@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Services\Implementation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RL\RL.csproj" />
+    <ProjectReference Include="..\DL\DL.csproj" />
+  </ItemGroup>
+</Project>
